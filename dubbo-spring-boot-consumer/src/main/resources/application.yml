@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: dubbo-springboot-demo-consumer
+    register-mode: interface
+    qos-enable: false
+  protocol:
+    name: dubbo2
+    port: 28881
+  registry:
+    address: zookeeper://103.152.132.148:2181

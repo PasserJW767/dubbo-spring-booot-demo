@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+    register-mode: interface
+  protocol:
+    name: dubbo
+    port: 28880
+  registry:
+    address: zookeeper://103.152.132.148:2181
+#    timeout: 7000000
