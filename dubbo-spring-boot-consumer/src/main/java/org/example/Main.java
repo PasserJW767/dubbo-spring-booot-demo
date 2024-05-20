@@ -10,6 +10,5 @@ public class Main {
     public static void main(String[] args) {
         System.setProperty("zookeeper.sasl.client", "false");
         SpringApplication.run(Main.class, args);
-
     }
 }
